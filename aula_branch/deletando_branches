@@ -1,0 +1,15 @@
+Deletando branches
+
+Resumo:
+
+1. O comando git branch -d ou --delete <nome> irá deletar a branch;
+
+2. Não é comum deletar branch;
+
+3. Guardar histórico para resolver bugs e visualizar progresso;
+
+4. Deletar branch apenas quando o branch é criado errado;
+
+5. Geralmente empresas tem nomenclatura para branches;
+
+6. Deletar branch somente se for extremamente necessário;
