@@ -1,0 +1,45 @@
+Mudando branch
+
+Resumo:
+
+1. Mudar de branch com o comando git checkout <nome da branch>;
+
+2. Criar e mudar para uma nova branch com comando git checkout -b <nome da branch>;
+
+3. Muda-se de branch para não "sujar" a branch master;
+
+4. Desenvolve em outro branch e depois unir as modificações com a master;
+
+5. Mudar de branch, pode levar alterações que não foram comitadas junto. Tome cuidado;
+
+6. Se alterar arquivos -> não comitar -> mudar de branch:
+
+    6.1. Os arquivos não comitados irão para branch nova e na antiga serão apagados;
+
+7. Ficar de olho no git status quando for mudar de branch;
+
+8. Porque criar branches?
+
+    8.1. Não queremos mesclar o código com a master;
+
+    8.2. Queremos validar primeiro, antes de levar atualizações para a branch de origem;
+
+9. Sempre comitar antes de mudar de branch;
+
+10. Lembrando:
+
+    10.1. Criar uma nova branch com base na branch atual com o comando:
+
+    10.2. git checkout -b <nome da branch>
+
+11. Boas práticas:
+
+    11.1. Comitar tudo;
+
+    11.2. Sair do branch atual;
+
+    11.3. Voltar para a master/origem;
+
+    11.4. Fazer um git pull;
+
+    11.5. Usar o git checkout -b <nome da nova branch> ------> Cópia da Master.
