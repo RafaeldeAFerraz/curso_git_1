@@ -1,0 +1,13 @@
+Criar e visualizar branches 
+
+Resumo:
+
+1. Criamos branch com o comando git branch <nome>;
+
+2. Visualizamos branch com o comado git branch;
+
+3. Ao criar uma branch nova, faço uma cópia da branch atual;
+
+4. Geralmente ao criar uma nova branch, parte-se de uma branch master;
+
+5. Partir de um código que está em produção (branch master) para uma funcionalidade nova (branch a ser criada).
